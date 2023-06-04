@@ -117,7 +117,7 @@ section .content p {
 
   color: white;
   font-size: 1.4rem;
-  font-weight: 700;
+  
   text-transform: uppercase;
 
   display: flex;
@@ -303,8 +303,8 @@ body.menu-expanded button path {
 #home::before {
   content: "";
   width: 100%;
-  height: calc(100rem + var(--nav-height));
-  background-color: var(--brand-light);
+  height: calc(97rem + var(--nav-height));
+  background-color: #FFF1DA;
   display: block;
 
   position: absolute;
@@ -327,7 +327,7 @@ body.menu-expanded button path {
 }
 
 #home img {
-  width: 66.4rem;
+  width: 86rem;
   display: block;
   margin-inline: auto;
   object-position: 0 2rem;
@@ -548,7 +548,7 @@ footer .social-links {
   }
 
   nav#navegacao .menu ul li a {
-    color: var(--primary-color);
+    color: #000;
     opacity: 0.7;
   }
 
@@ -557,21 +557,20 @@ footer .social-links {
     justify-content: center;
     align-items: center;
     padding: 1rem 2.4rem;
-    border: 1px solid var(--primary-color);
-    border-radius: 4rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
 
-    color: var(--primary-color);
-
-    font-weight: 700;
+    color: #000;
+    font-weight: 500;
     font-size: 1.4rem;
     line-height: 1.8rem;
     text-transform: uppercase;
   }
 
   nav#navegacao .menu a.button:hover {
-    background-color: var(--primary-color);
+    background-color: #F1A501;
     border: none;
-    color: white;
+    color: #fff;
   }
 
   nav#navegacao.scroll .menu ul li a {
@@ -682,7 +681,7 @@ footer .social-links {
   }
 
   #home img {
-    width: 42rem;
+    width: 86rem;
   }
 
   /* ===SERVICES=== */
