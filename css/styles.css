@@ -303,7 +303,7 @@ body.menu-expanded button path {
 #home::before {
   content: "";
   width: 100%;
-  height: calc(97rem + var(--nav-height));
+  height: calc(91rem + var(--nav-height));
   background-color: #FFF1DA;
   display: block;
 
@@ -315,6 +315,18 @@ body.menu-expanded button path {
 
 #home .button {
   margin-inline: auto;
+}
+
+#home h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.08rem;
+    color: #DF6951;
+  
+    text-transform: uppercase;
+  
+    margin-bottom: 1.6rem;
 }
 
 #home p {
