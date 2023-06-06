@@ -112,11 +112,12 @@ section .content p {
 
   margin-bottom: 6rem;
 
-  padding: 1.6rem 3.2rem;
+  padding: 1.4rem 2.2rem;
   width: fit-content;
 
   color: white;
   font-size: 1.4rem;
+  font-weight: bold;
   
   text-transform: uppercase;
 
@@ -131,7 +132,8 @@ section .content p {
 }
 
 .button:hover {
-  background-color: var(--brand-dark);
+  background-color: #fff;
+  color: #000;
 }
 
 .social-links {
@@ -303,7 +305,7 @@ body.menu-expanded button path {
 #home::before {
   content: "";
   width: 100%;
-  height: calc(91rem + var(--nav-height));
+  height: calc(91rem + var(--nav-height));   
   background-color: #FFF1DA;
   display: block;
 
@@ -317,6 +319,7 @@ body.menu-expanded button path {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 
 #home .button {
