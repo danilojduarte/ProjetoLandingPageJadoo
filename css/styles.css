@@ -186,8 +186,10 @@ nav .wrapper {
   justify-content: space-between;
 }
 
+
+/* Color Scroll após a rolagem */
 nav.scroll {
-  background: var(--brand-beige);
+  background: #F1A501;
 }
 
 nav button {
