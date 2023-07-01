@@ -394,17 +394,23 @@ body.menu-expanded button path {
 #services .cards {
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+  gap: 2.2rem;
 }
 
 #services .card {
-  padding: 2.4rem;
-  text-align: left;
+  text-align: center;
 
+
+  padding: 1.4rem;
+  
   background: white;
 
   border: 1px solid var(--brand-light);
-  border-radius: 0.6rem;
+  border-radius: 2rem;
+}
+
+#services .card img {
+  width: 30%;
 }
 
 #services .card h3 {
@@ -720,8 +726,12 @@ footer .social-links {
   }
 
   #services .card {
-    width: 30%;
+    width: 20%;
     flex-grow: 1;
+  }
+
+  #services .card img {
+    width: 30%;
   }
 
   /* ===ABOUT=== */
