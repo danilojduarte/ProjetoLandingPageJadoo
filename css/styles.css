@@ -387,6 +387,10 @@ body.menu-expanded button path {
 }
 
 /*=== SERVICES =================================*/
+#services {
+  background-color: #fff;
+}
+
 #services header h2 {
   margin-bottom: 6rem;
 }
@@ -400,17 +404,22 @@ body.menu-expanded button path {
 #services .card {
   text-align: center;
 
-
   padding: 1.4rem;
   
-  background: white;
-
-  border: 1px solid var(--brand-light);
+  background: white; 
   border-radius: 2rem;
+  
+  border: none;
+
+  transition: all .3s ease-in-out;
+}
+
+#services .card:hover {
+  border: 1px solid var(--brand-light);
 }
 
 #services .card img {
-  width: 30%;
+  width: 35%;
 }
 
 #services .card h3 {
