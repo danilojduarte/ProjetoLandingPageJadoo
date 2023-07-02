@@ -402,13 +402,15 @@ body.menu-expanded button path {
 }
 
 #services .card {
+  
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
   text-align: center;
 
-  padding: 1.4rem;
+  padding: 1rem;
   
-  background: white; 
   border-radius: 2rem;
-  
   border: none;
 
   transition: all .3s ease-in-out;
@@ -419,7 +421,8 @@ body.menu-expanded button path {
 }
 
 #services .card img {
-  width: 35%;
+  width: 30%;
+  height: auto;
 }
 
 #services .card h3 {
